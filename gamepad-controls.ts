@@ -109,7 +109,6 @@ export default class GamepadControls {
   public activate() {
     if (!this.active) {
       this.active = true;
-      this
       this.update();
     }
   }
